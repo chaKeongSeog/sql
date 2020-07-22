@@ -1,4 +1,4 @@
-SELECT * | [컬럼명 ...]
+zSELECT * | [컬럼명 ...]
 FROM 테이블명;
 
 SELECT *
