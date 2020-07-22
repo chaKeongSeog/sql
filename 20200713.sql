@@ -371,3 +371,5 @@ DESC dept_test
 ALTER TABLE emp_test ADD CONSTRAINT pk_emp_test_dept_test PRIMARY KEY(empno)
 ALTER TABLE dept_test ADD CONSTRAINT pk_dept PRIMARY KEY(deptno)
 ALTER TABLE emp_test ADD CONSTRAINT fk_emp_test_dept_test FOREIGN KEY(deptno) REFERENCES dept_test (deptno)
+
+
